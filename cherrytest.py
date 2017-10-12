@@ -18,9 +18,7 @@ class LEDController(object):
         return index_html
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(7, 
-GPIO.OUT)
-GPIO.output(7, 
-GPIO.HIGH)
+GPIO.setup(7,GPIO.OUT)
+GPIO.output(7,GPIO.HIGH)
 cherrypy.server.socket_host =  "0.0.0.0"  #0.0.0.0 =>  listen on all interfaces
 cherrypy.quickstart(LEDController())
