@@ -20,7 +20,7 @@ To test ……
 o	python3 cherrytest.py
 •	This will make the raspberry listen for incoming connection on port 8080
 
-Now open a browser on your labtop computer and browse   <ipnumber>:8080..  
+Now open a browser on your labtop computer and browse    ipnumber:8080..  
   
 You should see a webpage with two buttons
 
@@ -32,3 +32,7 @@ Assignment
 Attach another  LED on another GPIO pin and see that this is controllable also.
 
 
+To test the buttongrid.html 
+  either change the refference in cherrytest.py
+or
+  rename the buttongrid.html to htmlfile.html
